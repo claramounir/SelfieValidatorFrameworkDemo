@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B7DB2B2A5C496400BBF408 /* SelfieFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B7DB2A2A5C496400BBF408 /* SelfieFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B7DB462A5C4A0500BBF408 /* Bundle+pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB322A5C4A0500BBF408 /* Bundle+pod.swift */; };
+		B8B7DB472A5C4A0500BBF408 /* UIViewController+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB332A5C4A0500BBF408 /* UIViewController+identifier.swift */; };
+		B8B7DB482A5C4A0500BBF408 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB342A5C4A0500BBF408 /* UIViewController+Toast.swift */; };
+		B8B7DB492A5C4A0500BBF408 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB362A5C4A0500BBF408 /* CameraController.swift */; };
+		B8B7DB4A2A5C4A0500BBF408 /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB372A5C4A0500BBF408 /* FaceDetectionManager.swift */; };
+		B8B7DB4B2A5C4A0500BBF408 /* TakenImageResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB3A2A5C4A0500BBF408 /* TakenImageResultViewController.xib */; };
+		B8B7DB4C2A5C4A0500BBF408 /* TakenImageResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3B2A5C4A0500BBF408 /* TakenImageResultViewController.swift */; };
+		B8B7DB4D2A5C4A0500BBF408 /* TakenImageResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3C2A5C4A0500BBF408 /* TakenImageResultViewModel.swift */; };
+		B8B7DB4E2A5C4A0500BBF408 /* TakenImageResultViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3D2A5C4A0500BBF408 /* TakenImageResultViewContract.swift */; };
+		B8B7DB4F2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3E2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift */; };
+		B8B7DB502A5C4A0500BBF408 /* SelfieValidatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB402A5C4A0500BBF408 /* SelfieValidatorViewController.xib */; };
+		B8B7DB512A5C4A0500BBF408 /* SelfieValidatorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB412A5C4A0500BBF408 /* SelfieValidatorContract.swift */; };
+		B8B7DB522A5C4A0500BBF408 /* SelfieValidatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB422A5C4A0500BBF408 /* SelfieValidatorViewController.swift */; };
+		B8B7DB532A5C4A0500BBF408 /* SelfieValidatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB432A5C4A0500BBF408 /* SelfieValidatorViewModel.swift */; };
+		B8B7DB542A5C4A0500BBF408 /* SelfieValidatorWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB442A5C4A0500BBF408 /* SelfieValidatorWireframe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8B7DB272A5C496400BBF408 /* SelfieFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SelfieFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B7DB2A2A5C496400BBF408 /* SelfieFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfieFramework.h; sourceTree = "<group>"; };
+		B8B7DB322A5C4A0500BBF408 /* Bundle+pod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+pod.swift"; sourceTree = "<group>"; };
+		B8B7DB332A5C4A0500BBF408 /* UIViewController+identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+identifier.swift"; sourceTree = "<group>"; };
+		B8B7DB342A5C4A0500BBF408 /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		B8B7DB362A5C4A0500BBF408 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B8B7DB372A5C4A0500BBF408 /* FaceDetectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionManager.swift; sourceTree = "<group>"; };
+		B8B7DB3A2A5C4A0500BBF408 /* TakenImageResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakenImageResultViewController.xib; sourceTree = "<group>"; };
+		B8B7DB3B2A5C4A0500BBF408 /* TakenImageResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewController.swift; sourceTree = "<group>"; };
+		B8B7DB3C2A5C4A0500BBF408 /* TakenImageResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewModel.swift; sourceTree = "<group>"; };
+		B8B7DB3D2A5C4A0500BBF408 /* TakenImageResultViewContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewContract.swift; sourceTree = "<group>"; };
+		B8B7DB3E2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultWireFrame.swift; sourceTree = "<group>"; };
+		B8B7DB402A5C4A0500BBF408 /* SelfieValidatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieValidatorViewController.xib; sourceTree = "<group>"; };
+		B8B7DB412A5C4A0500BBF408 /* SelfieValidatorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorContract.swift; sourceTree = "<group>"; };
+		B8B7DB422A5C4A0500BBF408 /* SelfieValidatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorViewController.swift; sourceTree = "<group>"; };
+		B8B7DB432A5C4A0500BBF408 /* SelfieValidatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorViewModel.swift; sourceTree = "<group>"; };
+		B8B7DB442A5C4A0500BBF408 /* SelfieValidatorWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorWireframe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B7DB242A5C496400BBF408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B7DB1D2A5C496400BBF408 = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB292A5C496400BBF408 /* SelfieFramework */,
+				B8B7DB282A5C496400BBF408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B7DB282A5C496400BBF408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB272A5C496400BBF408 /* SelfieFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B7DB292A5C496400BBF408 /* SelfieFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB352A5C4A0500BBF408 /* Core */,
+				B8B7DB312A5C4A0500BBF408 /* Extensions */,
+				B8B7DB382A5C4A0500BBF408 /* Modules */,
+				B8B7DB2A2A5C496400BBF408 /* SelfieFramework.h */,
+			);
+			path = SelfieFramework;
+			sourceTree = "<group>";
+		};
+		B8B7DB312A5C4A0500BBF408 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB322A5C4A0500BBF408 /* Bundle+pod.swift */,
+				B8B7DB332A5C4A0500BBF408 /* UIViewController+identifier.swift */,
+				B8B7DB342A5C4A0500BBF408 /* UIViewController+Toast.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B8B7DB352A5C4A0500BBF408 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB362A5C4A0500BBF408 /* CameraController.swift */,
+				B8B7DB372A5C4A0500BBF408 /* FaceDetectionManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B8B7DB382A5C4A0500BBF408 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB392A5C4A0500BBF408 /* ImageResult */,
+				B8B7DB3F2A5C4A0500BBF408 /* SelfieModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B8B7DB392A5C4A0500BBF408 /* ImageResult */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB3A2A5C4A0500BBF408 /* TakenImageResultViewController.xib */,
+				B8B7DB3B2A5C4A0500BBF408 /* TakenImageResultViewController.swift */,
+				B8B7DB3C2A5C4A0500BBF408 /* TakenImageResultViewModel.swift */,
+				B8B7DB3D2A5C4A0500BBF408 /* TakenImageResultViewContract.swift */,
+				B8B7DB3E2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift */,
+			);
+			path = ImageResult;
+			sourceTree = "<group>";
+		};
+		B8B7DB3F2A5C4A0500BBF408 /* SelfieModule */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB402A5C4A0500BBF408 /* SelfieValidatorViewController.xib */,
+				B8B7DB412A5C4A0500BBF408 /* SelfieValidatorContract.swift */,
+				B8B7DB422A5C4A0500BBF408 /* SelfieValidatorViewController.swift */,
+				B8B7DB432A5C4A0500BBF408 /* SelfieValidatorViewModel.swift */,
+				B8B7DB442A5C4A0500BBF408 /* SelfieValidatorWireframe.swift */,
+				B8B7DB452A5C4A0500BBF408 /* SelfieValidatorContract */,
+			);
+			path = SelfieModule;
+			sourceTree = "<group>";
+		};
+		B8B7DB452A5C4A0500BBF408 /* SelfieValidatorContract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SelfieValidatorContract;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8B7DB222A5C496400BBF408 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B7DB2B2A5C496400BBF408 /* SelfieFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B8B7DB262A5C496400BBF408 /* SelfieFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B7DB2E2A5C496400BBF408 /* Build configuration list for PBXNativeTarget "SelfieFramework" */;
+			buildPhases = (
+				B8B7DB222A5C496400BBF408 /* Headers */,
+				B8B7DB232A5C496400BBF408 /* Sources */,
+				B8B7DB242A5C496400BBF408 /* Frameworks */,
+				B8B7DB252A5C496400BBF408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieFramework;
+			productName = SelfieFramework;
+			productReference = B8B7DB272A5C496400BBF408 /* SelfieFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B7DB1E2A5C496400BBF408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B8B7DB262A5C496400BBF408 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B8B7DB212A5C496400BBF408 /* Build configuration list for PBXProject "SelfieFramework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8B7DB1D2A5C496400BBF408;
+			productRefGroup = B8B7DB282A5C496400BBF408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B7DB262A5C496400BBF408 /* SelfieFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B7DB252A5C496400BBF408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B7DB4B2A5C4A0500BBF408 /* TakenImageResultViewController.xib in Resources */,
+				B8B7DB502A5C4A0500BBF408 /* SelfieValidatorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B7DB232A5C496400BBF408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B7DB462A5C4A0500BBF408 /* Bundle+pod.swift in Sources */,
+				B8B7DB4C2A5C4A0500BBF408 /* TakenImageResultViewController.swift in Sources */,
+				B8B7DB482A5C4A0500BBF408 /* UIViewController+Toast.swift in Sources */,
+				B8B7DB492A5C4A0500BBF408 /* CameraController.swift in Sources */,
+				B8B7DB4F2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift in Sources */,
+				B8B7DB472A5C4A0500BBF408 /* UIViewController+identifier.swift in Sources */,
+				B8B7DB4A2A5C4A0500BBF408 /* FaceDetectionManager.swift in Sources */,
+				B8B7DB532A5C4A0500BBF408 /* SelfieValidatorViewModel.swift in Sources */,
+				B8B7DB4D2A5C4A0500BBF408 /* TakenImageResultViewModel.swift in Sources */,
+				B8B7DB522A5C4A0500BBF408 /* SelfieValidatorViewController.swift in Sources */,
+				B8B7DB512A5C4A0500BBF408 /* SelfieValidatorContract.swift in Sources */,
+				B8B7DB4E2A5C4A0500BBF408 /* TakenImageResultViewContract.swift in Sources */,
+				B8B7DB542A5C4A0500BBF408 /* SelfieValidatorWireframe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8B7DB2C2A5C496400BBF408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8B7DB2D2A5C496400BBF408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8B7DB2F2A5C496400BBF408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3W988VSD4A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clara.SelfieFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8B7DB302A5C496400BBF408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3W988VSD4A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clara.SelfieFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B7DB212A5C496400BBF408 /* Build configuration list for PBXProject "SelfieFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B7DB2C2A5C496400BBF408 /* Debug */,
+				B8B7DB2D2A5C496400BBF408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B7DB2E2A5C496400BBF408 /* Build configuration list for PBXNativeTarget "SelfieFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B7DB2F2A5C496400BBF408 /* Debug */,
+				B8B7DB302A5C496400BBF408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B7DB1E2A5C496400BBF408 /* Project object */;
+}

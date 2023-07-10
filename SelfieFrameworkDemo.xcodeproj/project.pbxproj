@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8A589F42A5CAA4C0022EFD4 /* SelfieFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A589F32A5CA9670022EFD4 /* SelfieFramework.framework */; };
+		B8A589F52A5CAA4C0022EFD4 /* SelfieFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8A589F32A5CA9670022EFD4 /* SelfieFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B8B7DB622A5C4A5800BBF408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB612A5C4A5800BBF408 /* AppDelegate.swift */; };
 		B8B7DB642A5C4A5800BBF408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB632A5C4A5800BBF408 /* SceneDelegate.swift */; };
 		B8B7DB662A5C4A5800BBF408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB652A5C4A5800BBF408 /* ViewController.swift */; };
 		B8B7DB692A5C4A5800BBF408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB672A5C4A5800BBF408 /* Main.storyboard */; };
 		B8B7DB6B2A5C4A5900BBF408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB6A2A5C4A5900BBF408 /* Assets.xcassets */; };
 		B8B7DB6E2A5C4A5900BBF408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB6C2A5C4A5900BBF408 /* LaunchScreen.storyboard */; };
-		B8B7DB7C2A5C4A9F00BBF408 /* SelfieFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7DB7A2A5C4A8800BBF408 /* SelfieFramework.framework */; };
-		B8B7DB7D2A5C4A9F00BBF408 /* SelfieFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7DB7A2A5C4A8800BBF408 /* SelfieFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B8B7DB792A5C4A8800BBF408 /* PBXContainerItemProxy */ = {
+		B8A589F22A5CA9670022EFD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B8B7DB752A5C4A8800BBF408 /* SelfieFramework.xcodeproj */;
+			containerPortal = B8A589EE2A5CA9670022EFD4 /* SelfieFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B8B7DB272A5C496400BBF408;
 			remoteInfo = SelfieFramework;
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B8B7DB7D2A5C4A9F00BBF408 /* SelfieFramework.framework in Embed Frameworks */,
+				B8A589F52A5CAA4C0022EFD4 /* SelfieFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B8A589EE2A5CA9670022EFD4 /* SelfieFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SelfieFramework.xcodeproj; path = SelfieFramework/SelfieFramework.xcodeproj; sourceTree = "<group>"; };
 		B8B7DB5E2A5C4A5800BBF408 /* SelfieFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B7DB612A5C4A5800BBF408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B7DB632A5C4A5800BBF408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		B8B7DB6A2A5C4A5900BBF408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8B7DB6D2A5C4A5900BBF408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8B7DB6F2A5C4A5900BBF408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8B7DB752A5C4A8800BBF408 /* SelfieFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SelfieFramework.xcodeproj; path = ../../SelfieFramework/SelfieFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +58,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B7DB7C2A5C4A9F00BBF408 /* SelfieFramework.framework in Frameworks */,
+				B8A589F42A5CAA4C0022EFD4 /* SelfieFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8A589EF2A5CA9670022EFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A589F32A5CA9670022EFD4 /* SelfieFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B8B7DB552A5C4A5800BBF408 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +93,7 @@
 		B8B7DB602A5C4A5800BBF408 /* SelfieFrameworkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B8B7DB752A5C4A8800BBF408 /* SelfieFramework.xcodeproj */,
+				B8A589EE2A5CA9670022EFD4 /* SelfieFramework.xcodeproj */,
 				B8B7DB612A5C4A5800BBF408 /* AppDelegate.swift */,
 				B8B7DB632A5C4A5800BBF408 /* SceneDelegate.swift */,
 				B8B7DB652A5C4A5800BBF408 /* ViewController.swift */,
@@ -95,14 +103,6 @@
 				B8B7DB6F2A5C4A5900BBF408 /* Info.plist */,
 			);
 			path = SelfieFrameworkDemo;
-			sourceTree = "<group>";
-		};
-		B8B7DB762A5C4A8800BBF408 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B8B7DB7A2A5C4A8800BBF408 /* SelfieFramework.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B8B7DB7B2A5C4A9F00BBF408 /* Frameworks */ = {
@@ -161,8 +161,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B8B7DB762A5C4A8800BBF408 /* Products */;
-					ProjectRef = B8B7DB752A5C4A8800BBF408 /* SelfieFramework.xcodeproj */;
+					ProductGroup = B8A589EF2A5CA9670022EFD4 /* Products */;
+					ProjectRef = B8A589EE2A5CA9670022EFD4 /* SelfieFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -173,11 +173,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B8B7DB7A2A5C4A8800BBF408 /* SelfieFramework.framework */ = {
+		B8A589F32A5CA9670022EFD4 /* SelfieFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SelfieFramework.framework;
-			remoteRef = B8B7DB792A5C4A8800BBF408 /* PBXContainerItemProxy */;
+			remoteRef = B8A589F22A5CA9670022EFD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
